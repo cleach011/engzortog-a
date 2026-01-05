@@ -20,7 +20,7 @@ body {
 }
 
 .heart {
-    font-size: 320px; /* SAL KICHRAYTIRILDI */
+    font-size: 120px; /* SAL KICHRAYTIRILDI */
     cursor: pointer;
     transition: transform 0.2s;
 }
@@ -28,7 +28,10 @@ body {
 .heart:active {
     transform: scale(1.15);
 }
-
+.heartimg {
+    width: 400px;   /* bu yerda xohlagancha kichraytirasan */
+   
+}
 .text {
     display: none;
     margin-top: 20px;
@@ -49,7 +52,7 @@ body {
 <body>
 
 <div class="container">
-    <div class="heart" onclick="showHide()">😎</div>
+    <div class="heart" onclick="showHide()"><img class="heartimg"  src="./ChatGPT Image 5 янв. 2026 г., 18_50_47.png" alt=""></div>
 
     <div class="text" id="ona">
           ENG ZO'R TAG'A
